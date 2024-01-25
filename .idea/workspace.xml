@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="init duckie">
-      <change afterPath="$PROJECT_DIR$/src/Entrypoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InClass124.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lottery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="in class work 1/24">
+      <change afterPath="$PROJECT_DIR$/src/homework/Homework1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,24 +33,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Entrypoint.executor": "Run",
-    "Application.InClass124.executor": "Run",
-    "Application.Lottery.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.TestDuckie.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Entrypoint.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InClass124.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lottery.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestDuckie.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Lottery">
+}</component>
+  <component name="RunManager" selected="Application.InsertPlusSolution">
     <configuration name="Entrypoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Entrypoint" />
       <module name="cis2168" />
@@ -64,6 +61,19 @@
     <configuration name="InClass124" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InClass124" />
       <module name="cis2168" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertPlusSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.InsertPlusSolution" />
+      <module name="cis2168" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertPlusSolution" />
         <item itemvalue="Application.Lottery" />
         <item itemvalue="Application.InClass124" />
         <item itemvalue="Application.TestDuckie" />
@@ -102,6 +113,7 @@
       <workItem from="1705514745820" duration="2420000" />
       <workItem from="1705586518548" duration="1821000" />
       <workItem from="1706115506654" duration="4392000" />
+      <workItem from="1706191285961" duration="418000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -111,11 +123,20 @@
       <option name="project" value="LOCAL" />
       <updated>1705517009965</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="in class work 1/24">
+      <option name="closed" value="true" />
+      <created>1706191304656</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706191304656</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init duckie" />
-    <option name="LAST_COMMIT_MESSAGE" value="init duckie" />
+    <MESSAGE value="in class work 1/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="in class work 1/24" />
   </component>
 </project>
