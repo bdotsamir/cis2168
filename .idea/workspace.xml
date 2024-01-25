@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Duckie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestDuckie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cis2168.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cis2168.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="init duckie">
+      <change afterPath="$PROJECT_DIR$/src/Entrypoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InClass124.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lottery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2b5pMNxhcjgqV9kel2oPPQLQCZd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,6 +38,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Entrypoint.executor": "Run",
+    "Application.InClass124.executor": "Run",
+    "Application.Lottery.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.TestDuckie.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
@@ -53,6 +53,44 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Lottery">
+    <configuration name="Entrypoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Entrypoint" />
+      <module name="cis2168" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InClass124" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InClass124" />
+      <module name="cis2168" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lottery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lottery" />
+      <module name="cis2168" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDuckie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDuckie" />
+      <module name="cis2168" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Lottery" />
+        <item itemvalue="Application.InClass124" />
+        <item itemvalue="Application.TestDuckie" />
+        <item itemvalue="Application.Entrypoint" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,8 +99,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705514744779</updated>
-      <workItem from="1705514745820" duration="1917000" />
+      <workItem from="1705514745820" duration="2420000" />
+      <workItem from="1705586518548" duration="1821000" />
+      <workItem from="1706115506654" duration="4392000" />
     </task>
+    <task id="LOCAL-00001" summary="init duckie">
+      <option name="closed" value="true" />
+      <created>1705517009965</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705517009965</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init duckie" />
+    <option name="LAST_COMMIT_MESSAGE" value="init duckie" />
   </component>
 </project>
