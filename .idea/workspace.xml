@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="Lottery: homework 1">
-      <change afterPath="$PROJECT_DIR$/src/homework/Intersect.java" afterDir="false" />
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="Intersect: homework 1">
+      <change afterPath="$PROJECT_DIR$/src/homework/Squash.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +42,7 @@
     "Application.Intersect.executor": "Run",
     "Application.Lottery.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Squash.executor": "Run",
     "Application.TestDuckie.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "true",
@@ -54,7 +55,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Intersect">
+  <component name="RunManager" selected="Application.Squash">
     <configuration name="InClass124" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InClass124" />
       <module name="cis2168" />
@@ -95,20 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDuckie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestDuckie" />
+    <configuration name="Squash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.Squash" />
       <module name="cis2168" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Squash" />
         <item itemvalue="Application.Intersect" />
         <item itemvalue="Application.InsertPlusSolution" />
         <item itemvalue="Application.Lottery" />
         <item itemvalue="Application.InClass124" />
-        <item itemvalue="Application.TestDuckie" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +130,7 @@
       <workItem from="1705514745820" duration="2420000" />
       <workItem from="1705586518548" duration="1821000" />
       <workItem from="1706115506654" duration="4392000" />
-      <workItem from="1706191285961" duration="1899000" />
+      <workItem from="1706191285961" duration="2867000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -157,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706191957183</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Intersect: homework 1">
+      <option name="closed" value="true" />
+      <created>1706193235755</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706193235755</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,6 +180,7 @@
     <MESSAGE value="in class work 1/24" />
     <MESSAGE value="InsertPlusSolution: homework 1" />
     <MESSAGE value="Lottery: homework 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lottery: homework 1" />
+    <MESSAGE value="Intersect: homework 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intersect: homework 1" />
   </component>
 </project>
