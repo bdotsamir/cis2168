@@ -33,6 +33,9 @@ public class Lottery {
       System.out.print(randomNumber + " ");
     }
 
+    var sortedResult = Arrays.stream(result).sorted().toArray();
+    System.out.println("\nSorted: " + Arrays.toString(sortedResult));
+
     // Technically I don't even need the result array here because I print
     // the number in the same array.
   }

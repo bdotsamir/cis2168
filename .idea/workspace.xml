@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="Intersect: homework 1">
-      <change afterPath="$PROJECT_DIR$/src/homework/Squash.java" afterDir="false" />
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="Squash: homework 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/Lottery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/Lottery.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Squash">
+  <component name="RunManager" selected="Application.Lottery">
     <configuration name="InClass124" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InClass124" />
       <module name="cis2168" />
@@ -111,10 +111,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lottery" />
         <item itemvalue="Application.Squash" />
         <item itemvalue="Application.Intersect" />
         <item itemvalue="Application.InsertPlusSolution" />
-        <item itemvalue="Application.Lottery" />
         <item itemvalue="Application.InClass124" />
       </list>
     </recent_temporary>
@@ -130,7 +130,7 @@
       <workItem from="1705514745820" duration="2420000" />
       <workItem from="1705586518548" duration="1821000" />
       <workItem from="1706115506654" duration="4392000" />
-      <workItem from="1706191285961" duration="2867000" />
+      <workItem from="1706191285961" duration="4068000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -172,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706193235755</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Squash: homework 1">
+      <option name="closed" value="true" />
+      <created>1706194424505</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706194424505</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -181,6 +189,7 @@
     <MESSAGE value="InsertPlusSolution: homework 1" />
     <MESSAGE value="Lottery: homework 1" />
     <MESSAGE value="Intersect: homework 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intersect: homework 1" />
+    <MESSAGE value="Squash: homework 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Squash: homework 1" />
   </component>
 </project>
