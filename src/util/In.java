@@ -1,4 +1,4 @@
-package inclass126;
+package util;
 
 import org.jetbrains.annotations.NotNull;
 
