@@ -47,49 +47,21 @@ public class ResizingArray<E> implements Iterable<E> {
   }
 
   // Adds the element at index.
-//  public void add(int index, E element) {
-//    if (index < 0 || index >= n) {
-//      throw new ArrayIndexOutOfBoundsException();
-//    }
-//
-//    if(n == this.elements.length) {
-//      this.resize(2 * this.elements.length);
-//    }
-//
-//    for(int i = n; i > index; i--) {
-//      this.elements[i] = this.elements[i - 1];
-//    }
-//    this.elements[index] = element;
-//    n++;
-//  }
-
   public void add(int index, E element) {
-    if(index < 0 || index >= n) {
+    if (index < 0 || index >= n) {
       throw new ArrayIndexOutOfBoundsException();
     }
 
-    if (n == this.elements.length) {
+    if(n == this.elements.length) {
       this.resize(2 * this.elements.length);
     }
 
-    System.arraycopy(
-            this.elements, // This is the array we're copying
-            index, // Extract a slice of the array at this index
-            this.elements, // The array we're copying the slice into
-            index + 1, // Copy the slice starting at this index
-            ++n - index // And only copy this many elements (length - index)
-    );
-
+    for(int i = n; i > index; i--) {
+      this.elements[i] = this.elements[i - 1];
+    }
     this.elements[index] = element;
+    n++;
   }
-  // Inspired by java's native ArrayList#add(int index, E element) method <3
-  // We're using System.arraycopy over Arrays.copyOf because, internally,
-  // System#arraycopy calls C/C++ `memmove`, which will *literally* shift
-  // the array *in memory*. Arrays#copyOf will create an entirely new array
-  // and copy the elements in.
-  // And, as it turns out, Arrays#copyOf calls System#arraycopy in its
-  // implementation anyway, so I'm just cutting out the middleman
-  // See other: https://stackoverflow.com/a/2589797/8916706
 
   // Replaces the element at index with the given element
   public void set(int index, E element) {
@@ -105,38 +77,23 @@ public class ResizingArray<E> implements Iterable<E> {
     return elements[index];
   }
 
-//  // Removes the element at position index
-//  public void remove(int index) {
-//    if (index < 0 || index >= n) {
-//      throw new ArrayIndexOutOfBoundsException();
-//    }
-//
-//    for (int i = index + 1; i < n; i++) {
-//      this.elements[i - 1] = this.elements[i];
-//    }
-//    n--;
-//  }
-
+  // Removes the element at position index
   public void remove(int index) {
-    if(index < 0 || index >= n) {
+    if (index < 0 || index >= n) {
       throw new ArrayIndexOutOfBoundsException();
     }
 
-    System.arraycopy(
-            this.elements, // This is the array we're copying
-            index + 1, // Extract a slice of the array at this index
-            this.elements, // The array we're copying the slice into
-            index, // Copy the slice starting at this index
-            --n - index // And only copy this many elements (length - index)
-    );
-//    n--;
+    for (int i = index + 1; i < n; i++) {
+      this.elements[i - 1] = this.elements[i];
+    }
+    n--;
   }
 
 
   // Returns the index of the first occurrence of element or -1 if not found
   public int indexOf(E element) {
     for (int i = 0; i < this.elements.length; i++) {
-      if(this.elements[i] == element) return i;
+      if(this.elements[i].equals(element)) return i;
     }
 
     return -1;
