@@ -15,10 +15,14 @@ public class IntCollection {
   }
 
   private int indexOf(int key) {
-// indexOf() implemented as a linear search.
-// YOUR CODE HERE
-    for(int i = 0; i < a.length; i++) {
-      if(a[i] == key) return i;
+    // indexOf() implemented as a binary search
+    int lo = 0;
+    int hi = a.length - 1;
+    while (lo <= hi) {
+      int mid = lo + (hi - lo) / 2;
+      if(key < a[mid]) hi = mid - 1;
+      if(key > a[mid]) lo = mid + 1;
+      else return mid;
     }
     return -1;
   }
