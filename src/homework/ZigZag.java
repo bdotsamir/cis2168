@@ -14,67 +14,52 @@ public class ZigZag<T> {
    */
 
   private final T[][] elements;
-  private final int xLength; // X length
-  private final int yLength; // Y length
+  private final int width; // X length
+  private final int height; // Y length
 
   public ZigZag(T[][] elements) {
     this.elements = elements;
 
-    this.xLength = this.elements[0].length;
-    this.yLength = this.elements.length;
+    this.width = this.elements[0].length - 1;
+    this.height = this.elements.length - 1;
   }
 
-  private enum SIDE {
-    X,
-    Y
-  }
+  public ArrayList<T> calculate() {
+    ArrayList<T> result = new ArrayList<>();
+    int row = 0;
+    int col = 0;
 
-  public ArrayList<CoordinatePair> calculateCoordinates() {
-    ArrayList<CoordinatePair> coordinateList = new ArrayList<>();
-    int x = 0;
-    int y = 0;
-    int upToX = 1;
-    int upToY = 1;
-    // Start with Y coordinate
-    SIDE side = SIDE.Y;
-//    SIDE prevSide = SIDE.X;
+    boolean goingDown = true;
 
-    coordinateList.add(new CoordinatePair(0, 0));
+    while(!ZigZag.outOfBounds(row, col, this.height, this.width)) {
+      result.add(this.elements[row][col]);
 
-    for (int i = 0; i < xLength * yLength; i++) {
-
-      if(side == SIDE.Y) {
-        y++;
-        if(x > 0) x--;
-
-        if(y == upToY) {
-          upToY++;
-          side = SIDE.X;
-          continue;
+      if(goingDown) {
+        if(col == 0 || row == height) {
+          goingDown = false;
+          if(row == height) col++;
+          else row++;
+        } else {
+          row++;
+          col--;
+        }
+      } else {
+        if(row == 0 || col == width) {
+          goingDown = true;
+          if(col == width) row++;
+          else col++;
+        } else {
+          row--;
+          col++;
         }
       }
-
-      if(side == SIDE.X) {
-        x++;
-        if(y > 0) y--;
-
-        if(x == upToX) {
-          upToX++;
-          side = SIDE.Y;
-          continue;
-        }
-      }
-
     }
 
-    return coordinateList;
+    return result;
   }
 
-  public record CoordinatePair(int x, int y) {
-
-    public String toString() {
-      return "(" + this.x + ", " + this.y + ")";
-    }
+  private static boolean outOfBounds(int row, int col, int height, int width) {
+    return row < 0 || row > height || col < 0 || col > width;
   }
 
   public static void main(String[] args) {
@@ -87,8 +72,8 @@ public class ZigZag<T> {
     };
 
     ZigZag<Integer> zigzag = new ZigZag<>(elements);
-    ArrayList<CoordinatePair> coordinates = zigzag.calculateCoordinates();
-    System.out.println(coordinates);
+    var calculated = zigzag.calculate();
+    System.out.println(calculated);
   }
 
 }
