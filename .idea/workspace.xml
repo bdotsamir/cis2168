@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="IntCollection: binary search">
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="Node &amp; NodeTest: start work on linked lists">
       <change afterPath="$PROJECT_DIR$/src/inclass207/InsertPlus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inclass207/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inclass207/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inclass207/NodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inclass207/NodeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/homework/ZigZag.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -180,7 +184,7 @@
       <workItem from="1707326511450" duration="5310000" />
       <workItem from="1707354383657" duration="754000" />
       <workItem from="1707400562064" duration="1213000" />
-      <workItem from="1707500230549" duration="1190000" />
+      <workItem from="1707500230549" duration="2265000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -286,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707355057941</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Node &amp; NodeTest: start work on linked lists">
+      <option name="closed" value="true" />
+      <created>1707502502882</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707502502882</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -303,6 +315,7 @@
     <MESSAGE value="ResizingArray: think like a CS student. not a systems programmer." />
     <MESSAGE value="ZigZag: solution" />
     <MESSAGE value="IntCollection: binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="IntCollection: binary search" />
+    <MESSAGE value="Node &amp; NodeTest: start work on linked lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Node &amp; NodeTest: start work on linked lists" />
   </component>
 </project>

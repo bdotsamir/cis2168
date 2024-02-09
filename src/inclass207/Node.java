@@ -4,12 +4,12 @@ import org.jetbrains.annotations.Nullable;
 
 // Generic Node data type
 public class Node<E> {
-   private E data;
-   private @Nullable Node<E> next;
+  private E data;
+  private @Nullable Node<E> next;
 
-   // Would a constructor be useful in this small class?
-   // (A constructor might initialize node data to the value e
-   // and the next Node reference to null.)
+  public Node(E data) {
+    this(data, null);
+  }
 
   public Node(E data, @Nullable Node<E> nextNode) {
     this.data = data;
@@ -34,7 +34,7 @@ public class Node<E> {
 
   public String toString() {
     String nextNodeData = "null";
-    if(this.next != null) {
+    if (this.next != null) {
       nextNodeData = this.next.getData().toString();
     }
 
