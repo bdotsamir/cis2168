@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="Node &amp; NodeTest: start work on linked lists">
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="Node &amp; NodeTest: add new constructor">
       <change afterPath="$PROJECT_DIR$/src/inclass207/InsertPlus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inclass207/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inclass207/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inclass207/NodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inclass207/NodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/In.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/In.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/homework/ZigZag.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inclass214/LinkedListPractice.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -50,11 +52,14 @@
     "Application.InsertPlus.executor": "Run",
     "Application.InsertPlusSolution.executor": "Run",
     "Application.Intersect.executor": "Run",
+    "Application.LinkedListPractice.executor": "Run",
     "Application.ListFilter.executor": "Run",
     "Application.Lottery.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.NodeTest.executor": "Run",
     "Application.ResizingArrayList.executor": "Run",
+    "Application.SLListSimple.executor": "Run",
+    "Application.SLListTest.executor": "Run",
     "Application.Squash.executor": "Run",
     "Application.TestDuckie.executor": "Run",
     "Application.TestResizingArray.executor": "Debug",
@@ -75,26 +80,13 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NodeTest">
-    <configuration name="InsertPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inclass207.InsertPlus" />
+  <component name="RunManager" selected="Application.LinkedListPractice">
+    <configuration name="LinkedListPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inclass214.LinkedListPractice" />
       <module name="cis2168" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inclass207.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inclass126.ListFilter" />
-      <module name="cis2168" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="util.*" />
+          <option name="PATTERN" value="inclass214.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +107,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestResizingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inclass131.TestResizingArray" />
+    <configuration name="SLListSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inclass209.SLListSimple" />
       <module name="cis2168" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/inclass209" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inclass131.*" />
+          <option name="PATTERN" value="inclass209.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SLListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inclass209.SLListTest" />
+      <module name="cis2168" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/inclass209" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inclass209.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +149,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LinkedListPractice" />
+      <item itemvalue="Application.SLListSimple" />
       <item itemvalue="Application.NodeTest" />
-      <item itemvalue="Application.InsertPlus" />
+      <item itemvalue="Application.SLListTest" />
       <item itemvalue="Application.ZigZag" />
-      <item itemvalue="Application.TestResizingArray" />
-      <item itemvalue="Application.ListFilter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListPractice" />
+        <item itemvalue="Application.SLListTest" />
+        <item itemvalue="Application.SLListSimple" />
         <item itemvalue="Application.NodeTest" />
         <item itemvalue="Application.ZigZag" />
-        <item itemvalue="Application.InsertPlus" />
-        <item itemvalue="Application.TestResizingArray" />
-        <item itemvalue="Application.ListFilter" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +191,11 @@
       <workItem from="1707326511450" duration="5310000" />
       <workItem from="1707354383657" duration="754000" />
       <workItem from="1707400562064" duration="1213000" />
-      <workItem from="1707500230549" duration="2265000" />
+      <workItem from="1707500230549" duration="3420000" />
+      <workItem from="1707521541626" duration="455000" />
+      <workItem from="1707928454247" duration="4440000" />
+      <workItem from="1707933094839" duration="2567000" />
+      <workItem from="1707935671423" duration="3416000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -298,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707502502882</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Node &amp; NodeTest: add new constructor">
+      <option name="closed" value="true" />
+      <created>1707503811073</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1707503811073</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -316,6 +335,18 @@
     <MESSAGE value="ZigZag: solution" />
     <MESSAGE value="IntCollection: binary search" />
     <MESSAGE value="Node &amp; NodeTest: start work on linked lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Node &amp; NodeTest: start work on linked lists" />
+    <MESSAGE value="Node &amp; NodeTest: add new constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Node &amp; NodeTest: add new constructor" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/inclass209/SLListTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
