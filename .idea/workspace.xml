@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="Node &amp; NodeTest: add new constructor">
-      <change afterPath="$PROJECT_DIR$/src/inclass207/InsertPlus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="LinkedLists">
+      <change afterPath="$PROJECT_DIR$/src/inclass216/ElectLeader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/In.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/In.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ElectLeader.executor": "Debug",
     "Application.Entrypoint.executor": "Run",
     "Application.In.executor": "Run",
     "Application.InClass124.executor": "Run",
@@ -80,7 +79,20 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LinkedListPractice">
+  <component name="RunManager" selected="Application.ElectLeader">
+    <configuration name="ElectLeader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inclass216.ElectLeader" />
+      <module name="cis2168" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inclass216.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedListPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inclass214.LinkedListPractice" />
       <module name="cis2168" />
@@ -135,33 +147,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZigZag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.ZigZag" />
-      <module name="cis2168" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.ElectLeader" />
       <item itemvalue="Application.LinkedListPractice" />
       <item itemvalue="Application.SLListSimple" />
       <item itemvalue="Application.NodeTest" />
       <item itemvalue="Application.SLListTest" />
-      <item itemvalue="Application.ZigZag" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ElectLeader" />
         <item itemvalue="Application.LinkedListPractice" />
         <item itemvalue="Application.SLListTest" />
         <item itemvalue="Application.SLListSimple" />
         <item itemvalue="Application.NodeTest" />
-        <item itemvalue="Application.ZigZag" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +195,8 @@
       <workItem from="1707928454247" duration="4440000" />
       <workItem from="1707933094839" duration="2567000" />
       <workItem from="1707935671423" duration="3416000" />
+      <workItem from="1708104803129" duration="2551000" />
+      <workItem from="1708472411202" duration="667000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -317,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707503811073</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="LinkedLists">
+      <option name="closed" value="true" />
+      <created>1708104829701</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708104829701</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -336,7 +345,8 @@
     <MESSAGE value="IntCollection: binary search" />
     <MESSAGE value="Node &amp; NodeTest: start work on linked lists" />
     <MESSAGE value="Node &amp; NodeTest: add new constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Node &amp; NodeTest: add new constructor" />
+    <MESSAGE value="LinkedLists" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedLists" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
