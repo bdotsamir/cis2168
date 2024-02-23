@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="ElectLeader: finished">
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="BabyList">
+      <change afterPath="$PROJECT_DIR$/src/inclass221/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +22,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bdotsamir&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="caab3a68-5eca-4806-b560-a3a544470c1c" />
+        <option name="url" value="git@github.com:samirbuch/cis2168.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/homework/ZigZag.java" root0="FORCE_HIGHLIGHTING" />
@@ -40,47 +55,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.BabyList.executor": "Run",
-    "Application.BabyListEfficiencyTest.executor": "Run",
-    "Application.ElectLeader.executor": "Debug",
-    "Application.Entrypoint.executor": "Run",
-    "Application.In.executor": "Run",
-    "Application.InClass124.executor": "Run",
-    "Application.InsertPlus.executor": "Run",
-    "Application.InsertPlusSolution.executor": "Run",
-    "Application.Intersect.executor": "Run",
-    "Application.LinkedListPractice.executor": "Run",
-    "Application.ListFilter.executor": "Run",
-    "Application.Lottery.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.NodeTest.executor": "Run",
-    "Application.ResizingArrayList.executor": "Run",
-    "Application.SLListSimple.executor": "Run",
-    "Application.SLListTest.executor": "Run",
-    "Application.Squash.executor": "Run",
-    "Application.TestDuckie.executor": "Run",
-    "Application.TestResizingArray.executor": "Debug",
-    "Application.ZigZag.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BabyList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BabyListEfficiencyTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ElectLeader.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Entrypoint.executor&quot;: &quot;Run&quot;,
+    &quot;Application.In.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InClass124.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertPlus.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertPlusSolution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Intersect.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListFilter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lottery.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NodeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResizingArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SLListSimple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SLListTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Squash.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackClient2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestDuckie.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestResizingArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ZigZag.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.BabyListEfficiencyTest">
+}</component>
+  <component name="RunManager" selected="Application.Calculator">
     <configuration name="BabyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.BabyList" />
       <module name="cis2168" />
@@ -107,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElectLeader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inclass216.ElectLeader" />
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inclass221.Calculator" />
       <module name="cis2168" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inclass216.*" />
+          <option name="PATTERN" value="inclass221.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inclass214.LinkedListPractice" />
+    <configuration name="StackClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inclass221.StackClient" />
       <module name="cis2168" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inclass214.*" />
+          <option name="PATTERN" value="inclass221.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SLListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inclass209.SLListTest" />
+    <configuration name="StackClient2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inclass221.StackClient2" />
       <module name="cis2168" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/inclass209" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inclass209.*" />
+          <option name="PATTERN" value="inclass221.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,19 +165,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BabyList" />
       <item itemvalue="Application.BabyListEfficiencyTest" />
-      <item itemvalue="Application.ElectLeader" />
-      <item itemvalue="Application.LinkedListPractice" />
-      <item itemvalue="Application.SLListTest" />
+      <item itemvalue="Application.BabyList" />
+      <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.StackClient2" />
+      <item itemvalue="Application.StackClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.StackClient" />
+        <item itemvalue="Application.StackClient2" />
         <item itemvalue="Application.BabyListEfficiencyTest" />
         <item itemvalue="Application.BabyList" />
-        <item itemvalue="Application.ElectLeader" />
-        <item itemvalue="Application.LinkedListPractice" />
-        <item itemvalue="Application.SLListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +214,10 @@
       <workItem from="1707935671423" duration="3416000" />
       <workItem from="1708104803129" duration="2551000" />
       <workItem from="1708472411202" duration="3444000" />
+      <workItem from="1708536248473" duration="3499000" />
+      <workItem from="1708540051703" duration="53000" />
+      <workItem from="1708540110911" duration="1709000" />
+      <workItem from="1708709742818" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -334,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708473153009</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="BabyList">
+      <option name="closed" value="true" />
+      <created>1708536267118</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1708536267118</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -355,7 +384,8 @@
     <MESSAGE value="Node &amp; NodeTest: add new constructor" />
     <MESSAGE value="LinkedLists" />
     <MESSAGE value="ElectLeader: finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="ElectLeader: finished" />
+    <MESSAGE value="BabyList" />
+    <option name="LAST_COMMIT_MESSAGE" value="BabyList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
