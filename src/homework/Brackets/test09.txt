@@ -1,0 +1,1 @@
+boolean bracketsMatched(boolean wasHeadache) { if (wasHeadache) return true; else return false; }

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="SumQueue: implement summing the integers in a queue" />
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="inclass213 -&gt; inclass223">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/In.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/In.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +60,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.BabyList.executor": "Run",
     "Application.BabyListEfficiencyTest.executor": "Run",
+    "Application.BracketMatcher.executor": "Run",
     "Application.Calculator.executor": "Run",
     "Application.ElectLeader.executor": "Debug",
     "Application.Entrypoint.executor": "Run",
@@ -96,13 +100,14 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SumQueue">
-    <configuration name="BabyListEfficiencyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.BabyListEfficiencyTest" />
+  <component name="RunManager" selected="Application.BracketMatcher">
+    <configuration name="BracketMatcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.Brackets.BracketMatcher" />
       <module name="cis2168" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/$FileDirRelativeToProjectRoot$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.*" />
+          <option name="PATTERN" value="homework.Brackets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +155,11 @@
       </method>
     </configuration>
     <configuration name="SumQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inclass213.SumQueue" />
+      <option name="MAIN_CLASS_NAME" value="inclass223.SumQueue" />
       <module name="cis2168" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inclass213.*" />
+          <option name="PATTERN" value="inclass223.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,19 +168,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BracketMatcher" />
       <item itemvalue="Application.SumQueue" />
-      <item itemvalue="Application.BabyListEfficiencyTest" />
       <item itemvalue="Application.Calculator" />
       <item itemvalue="Application.StackClient2" />
       <item itemvalue="Application.StackClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BracketMatcher" />
         <item itemvalue="Application.SumQueue" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.StackClient" />
         <item itemvalue="Application.StackClient2" />
-        <item itemvalue="Application.BabyListEfficiencyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +221,8 @@
       <workItem from="1708540051703" duration="53000" />
       <workItem from="1708540110911" duration="1709000" />
       <workItem from="1708709742818" duration="5000" />
-      <workItem from="1708709752750" duration="1703000" />
+      <workItem from="1708709752750" duration="2446000" />
+      <workItem from="1709071122665" duration="2924000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -378,7 +384,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708711151224</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="inclass213 -&gt; inclass223">
+      <option name="closed" value="true" />
+      <created>1708711499162</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1708711499162</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -402,7 +416,8 @@
     <MESSAGE value="BabyList" />
     <MESSAGE value="work on stack ADT + calculator that utilizes it" />
     <MESSAGE value="SumQueue: implement summing the integers in a queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="SumQueue: implement summing the integers in a queue" />
+    <MESSAGE value="inclass213 -&gt; inclass223" />
+    <option name="LAST_COMMIT_MESSAGE" value="inclass213 -&gt; inclass223" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

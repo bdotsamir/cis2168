@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
 // The main() method shows an example of using the In class.
 // You do not need to modify this file.
 public final class In {
-  private final Scanner scanner;
+  private Scanner scanner;
 
   // Constructor. Initializes an input stream from a filename (local or URL).
   public In(String name) {
@@ -38,22 +38,12 @@ public final class In {
 
   // main() tests the In data type
   public static void main(String[] args) {
-    // initialize In with tinyT.txt data file (stored on the web)
-    In in = new In("https://gist.githubusercontent.com/david-dobor/b4817f435bb4cc58adefc8f101f44efa/raw/d43fee7207dbac6fd70a1a111dd4992ffbd318ec/tinyT.txt");
-    int[] a = in.readAllInts();
-    System.out.println("Integers in tinyT.txt: " + Arrays.toString(a));
+    In in = new In("test09.txt");
+//      while (!in.isEmpty())
+//         System.out.print(in.readChar() + " ");
+    String text = in.readLine();
+    System.out.println(text);
 
-    // You can also read tinyW.txt from your local directory as follows:
-    // in = new In("tinyW.txt");
-    // a = in.readAllInts();
-
-    // You can read large data files without downloading them to your local machine.
-    // For example, read 1 million integers from this URL
-    in = new In("https://gist.githubusercontent.com/david-dobor/a97af6e62ddd2a3af6104989721553d5/raw/fea635101c2d19ee9f219503555e6371c1ca4b2c/largeW.txt");
-    a = in.readAllInts();
-
-    //the following line prints the integers in largeW.txt:
-    System.out.println(Arrays.toString(a));
   }
 
   // Reads all lines from this input stream and returns them as
@@ -129,6 +119,32 @@ public final class In {
       return scanner.next();
     } catch (NoSuchElementException e) {
       throw new NoSuchElementException("attempts to read a 'String' value from the input stream, "
+              + "but no more tokens are available");
+    }
+  }
+
+  // Reads and returns the next line in this input stream
+  public String readLine() {
+    String line;
+    try {
+      line = scanner.nextLine();
+    } catch (NoSuchElementException e) {
+      line = null;
+    }
+    return line;
+  }
+
+  // Reads and returns the next character in this input stream
+  public char readChar() {
+    scanner.useDelimiter(Pattern.compile(""));
+    try {
+      String ch = scanner.next();
+      assert ch.length() == 1 : "Internal (Std)In.readChar() error!"
+              + " Please contact the authors.";
+      scanner.useDelimiter(Pattern.compile("\\p{javaWhitespace}+"));
+      return ch.charAt(0);
+    } catch (NoSuchElementException e) {
+      throw new NoSuchElementException("attempts to read a 'char' value from the input stream, "
               + "but no more tokens are available");
     }
   }
