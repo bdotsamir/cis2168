@@ -73,14 +73,13 @@ public class BracketMatcher {
       Bracket.BracketType opening = Bracket.matchesOpening(next);
       Bracket.BracketType closing = Bracket.matchesClosing(next);
 
-      // If the complement of this bracket is not equal to the one currently on the stack,
-      // error out.
-
       if(opening != null) {
         openingBrackets.push(new Bracket(opening, next, position));
 //        System.out.println("Pushing: " + next);
       }
       if(closing != null) {
+        // If the complement of this bracket is not equal to the one currently on the stack,
+        // error out.
         char complement = Bracket.findComplement(next);
         if(complement != openingBrackets.peek().character && complement != '_') {
           System.out.println("Unmatched bracket at location " + openingBrackets.peek().position);
