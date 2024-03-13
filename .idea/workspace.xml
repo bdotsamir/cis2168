@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="inclass213 -&gt; inclass223">
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="LinkedList: dedupe method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/In.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/In.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/Brackets/BracketMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/Brackets/BracketMatcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,52 +55,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.BabyList.executor": "Run",
-    "Application.BabyListEfficiencyTest.executor": "Run",
-    "Application.BracketMatcher.executor": "Run",
-    "Application.Calculator.executor": "Run",
-    "Application.ElectLeader.executor": "Debug",
-    "Application.Entrypoint.executor": "Run",
-    "Application.In.executor": "Run",
-    "Application.InClass124.executor": "Run",
-    "Application.InsertPlus.executor": "Run",
-    "Application.InsertPlusSolution.executor": "Run",
-    "Application.Intersect.executor": "Run",
-    "Application.LinkedListPractice.executor": "Run",
-    "Application.ListFilter.executor": "Run",
-    "Application.Lottery.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.NodeTest.executor": "Run",
-    "Application.ResizingArrayList.executor": "Run",
-    "Application.SLListSimple.executor": "Run",
-    "Application.SLListTest.executor": "Run",
-    "Application.Squash.executor": "Run",
-    "Application.StackClient.executor": "Run",
-    "Application.StackClient2.executor": "Run",
-    "Application.SumQueue.executor": "Run",
-    "Application.TestDuckie.executor": "Run",
-    "Application.TestResizingArray.executor": "Debug",
-    "Application.ZigZag.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BabyList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BabyListEfficiencyTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BracketMatcher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ElectLeader.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Entrypoint.executor&quot;: &quot;Run&quot;,
+    &quot;Application.In.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InClass124.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertPlus.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertPlusSolution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Intersect.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LinkedListPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListFilter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lottery.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NodeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResizingArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SLListSimple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SLListTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Squash.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackClient2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumQueue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestDuckie.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestResizingArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ZigZag.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Java Scratch.Scratch.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
+    ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.BracketMatcher">
+}</component>
+  <component name="RunManager" selected="Application.LinkedList">
     <configuration name="BracketMatcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.Brackets.BracketMatcher" />
       <module name="cis2168" />
@@ -128,25 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inclass221.StackClient" />
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.LinkedList" />
       <module name="cis2168" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inclass221.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackClient2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inclass221.StackClient2" />
-      <module name="cis2168" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inclass221.*" />
+          <option name="PATTERN" value="labs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,20 +161,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.BracketMatcher" />
       <item itemvalue="Application.SumQueue" />
       <item itemvalue="Application.Calculator" />
-      <item itemvalue="Application.StackClient2" />
-      <item itemvalue="Application.StackClient" />
+      <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Application.BracketMatcher" />
         <item itemvalue="Application.SumQueue" />
         <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.StackClient" />
-        <item itemvalue="Application.StackClient2" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +224,9 @@
       <workItem from="1708709742818" duration="5000" />
       <workItem from="1708709752750" duration="2446000" />
       <workItem from="1709071122665" duration="2924000" />
+      <workItem from="1709143062451" duration="2155000" />
+      <workItem from="1709215596982" duration="7192000" />
+      <workItem from="1709919214304" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -392,7 +396,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708711499162</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="BracketMatcher">
+      <option name="closed" value="true" />
+      <created>1709143106540</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1709143106540</updated>
+    </task>
+    <task id="LOCAL-00023" summary="LinkedList: dedupe method">
+      <option name="closed" value="true" />
+      <created>1709224636150</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1709224636150</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -417,7 +437,9 @@
     <MESSAGE value="work on stack ADT + calculator that utilizes it" />
     <MESSAGE value="SumQueue: implement summing the integers in a queue" />
     <MESSAGE value="inclass213 -&gt; inclass223" />
-    <option name="LAST_COMMIT_MESSAGE" value="inclass213 -&gt; inclass223" />
+    <MESSAGE value="BracketMatcher" />
+    <MESSAGE value="LinkedList: dedupe method" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList: dedupe method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
