@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="LinkedList: dedupe method">
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/homework/BST/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/BST/TestBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/Brackets/BracketMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/Brackets/BracketMatcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
     <setting file="file://$PROJECT_DIR$/src/inclass214/LinkedListPractice.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -82,10 +83,13 @@
     &quot;Application.StackClient.executor&quot;: &quot;Run&quot;,
     &quot;Application.StackClient2.executor&quot;: &quot;Run&quot;,
     &quot;Application.SumQueue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestBST.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestDuckie.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestResizingArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ToyIntTree.executor&quot;: &quot;Run&quot;,
     &quot;Application.ZigZag.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Java Scratch.Scratch (1).executor&quot;: &quot;Run&quot;,
     &quot;Java Scratch.Scratch.executor&quot;: &quot;Run&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -107,47 +111,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.LinkedList">
-    <configuration name="BracketMatcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.Brackets.BracketMatcher" />
-      <module name="cis2168" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/$FileDirRelativeToProjectRoot$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.Brackets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inclass221.Calculator" />
-      <module name="cis2168" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inclass221.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.LinkedList" />
-      <module name="cis2168" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="labs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestBST">
     <configuration name="SumQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inclass223.SumQueue" />
       <module name="cis2168" />
@@ -161,6 +125,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.BST.TestBST" />
+      <module name="cis2168" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.BST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToyIntTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.ToyIntTree" />
+      <module name="cis2168" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.BST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch (1)" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Scratch" />
       <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
@@ -169,19 +166,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LinkedList" />
-      <item itemvalue="Application.BracketMatcher" />
+      <item itemvalue="Application.TestBST" />
+      <item itemvalue="Application.ToyIntTree" />
       <item itemvalue="Application.SumQueue" />
-      <item itemvalue="Application.Calculator" />
+      <item itemvalue="Java Scratch.Scratch (1)" />
       <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Application.TestBST" />
+        <item itemvalue="Application.ToyIntTree" />
+        <item itemvalue="Java Scratch.Scratch (1)" />
         <item itemvalue="Java Scratch.Scratch" />
-        <item itemvalue="Application.BracketMatcher" />
         <item itemvalue="Application.SumQueue" />
-        <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +224,11 @@
       <workItem from="1709143062451" duration="2155000" />
       <workItem from="1709215596982" duration="7192000" />
       <workItem from="1709919214304" duration="626000" />
+      <workItem from="1710346793657" duration="800000" />
+      <workItem from="1710347786207" duration="3240000" />
+      <workItem from="1710351056656" duration="1024000" />
+      <workItem from="1710421112991" duration="2636000" />
+      <workItem from="1710423808434" duration="2805000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -412,7 +414,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709224636150</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="BST">
+      <option name="closed" value="true" />
+      <created>1710347642433</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1710347642433</updated>
+    </task>
+    <task id="LOCAL-00025" summary=".">
+      <option name="closed" value="true" />
+      <created>1710347649347</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1710347649347</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -439,7 +457,9 @@
     <MESSAGE value="inclass213 -&gt; inclass223" />
     <MESSAGE value="BracketMatcher" />
     <MESSAGE value="LinkedList: dedupe method" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedList: dedupe method" />
+    <MESSAGE value="BST" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
