@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="IntTree &amp; BinarySearchTree">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="Start work on priority queues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/PriorityQueues/MinPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/PriorityQueues/MinPQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/PriorityQueues/TopMints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/PriorityQueues/TopMints.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +248,7 @@
       <workItem from="1710421112991" duration="2636000" />
       <workItem from="1710423808434" duration="2805000" />
       <workItem from="1710952575604" duration="3455000" />
-      <workItem from="1711026086952" duration="4997000" />
+      <workItem from="1711026086952" duration="7873000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -457,11 +458,18 @@
       <option name="project" value="LOCAL" />
       <updated>1710953916817</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Start work on priority queues">
+      <option name="closed" value="true" />
+      <created>1711031669266</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1711031669266</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="in class work 1/24" />
     <MESSAGE value="InsertPlusSolution: homework 1" />
     <MESSAGE value="Lottery: homework 1" />
     <MESSAGE value="Intersect: homework 1" />
@@ -486,7 +494,8 @@
     <MESSAGE value="BST" />
     <MESSAGE value="." />
     <MESSAGE value="IntTree &amp; BinarySearchTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="IntTree &amp; BinarySearchTree" />
+    <MESSAGE value="Start work on priority queues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start work on priority queues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -496,7 +505,20 @@
           <line>11</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homework/PriorityQueues/MinPQ.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="this.pq[leftChild]" language="JAVA" />
+        <watch expression="this.pq[rightChild]" language="JAVA" />
+        <watch expression="this.pq[k]" language="JAVA" />
+        <watch expression="this.n" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

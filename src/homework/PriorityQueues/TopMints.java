@@ -15,31 +15,34 @@ public class TopMints {
 
     int m = 5; // keep only top m integers
     int n = in.readInt(); // the first input integer is the number of input lines that follow
-//      Integer[] ints1 = new Integer[n];
-//
-//      MinPQ<Integer> pq = new MinPQ<>(m);
-//
-//      Stopwatch timer1 = new Stopwatch();
-//      for (int i = 0; i < n; i++) {
-//         ints1[i] = in.readInt();
-//         pq.add(ints1[i]);
-//         // YOUR CODE HERE (1 or 2 lines should do the job)
-//         // remove minimum if m+1 entries on the PQ
-//
-//      }
-//      double time1 = timer1.elapsedTime();
-//
-//      // print what's in the priority queue
-//      System.out.printf("\t\t\tTop %d integers are\n", m);
-//      for (Integer integer : pq) {
-//         System.out.println(integer);
-//      }
-//
-//      // print the time it took to process the entire stream
-//      System.out.printf("\nIt took %.2f seconds to process %,d integers " +
-//            "using a priority queue.\n",  time1, n);
-//
-//      in.close();
+    Integer[] ints1 = new Integer[n];
+
+    MinPQ<Integer> pq = new MinPQ<>(m);
+
+    Stopwatch timer1 = new Stopwatch();
+    for (int i = 0; i < n; i++) {
+      ints1[i] = in.readInt();
+      pq.add(ints1[i]);
+      // YOUR CODE HERE (1 or 2 lines should do the job)
+      // remove minimum if m+1 entries on the PQ
+      if(pq.size() >= m + 1) {
+        int minElement = pq.extractMin();
+        System.out.println("minimum element " + minElement);
+      }
+    }
+    double time1 = timer1.elapsedTime();
+
+    // print what's in the priority queue
+    System.out.printf("\t\t\tTop %d integers are\n", m);
+    for (Integer integer : pq) {
+      System.out.println(integer);
+    }
+
+    // print the time it took to process the entire stream
+    System.out.printf("\nIt took %.2f seconds to process %,d integers " +
+            "using a priority queue.\n", time1, n);
+
+    in.close();
 
     // Start Test 2 (this test sorts n integers and prints the largest m of them)
     System.out.print("\nTest 2\n------\n");

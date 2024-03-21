@@ -84,24 +84,34 @@ public class MinPQ<Key extends Comparable<Key>> implements Iterable<Key> {
   // While k has children,
   // compare the children of k.
   // Swap k with the greater of the two children.
+//  private void sink(int k) {
+//    // YOUR CODE HERE
+//    while (k * 2 <= this.n) {
+//      int leftChild = k * 2;
+//      int rightChild = k * 2 + 1;
+//
+//      int childToSwap;
+//
+//      // if the left child is greater than the right child,
+//      if(this.greater(leftChild, rightChild)) {
+//        childToSwap = leftChild; // swap k with the left child
+//      } else {
+//        childToSwap = rightChild; // swap k with the right child
+//      }
+//
+//      this.exch(k, childToSwap);
+//      k = childToSwap;
+//
+//    }
+//  }
+
   private void sink(int k) {
-    // YOUR CODE HERE
-    while(k * 2 <= this.n) {
-      int leftChild = k * 2;
-      int rightChild = k * 2 + 1;
-
-      int childToSwap;
-
-      // if the left child is greater than the right child,
-      if(this.greater(leftChild, rightChild)) {
-        childToSwap = leftChild; // swap k with the left child
-      } else {
-        childToSwap = rightChild; // swap k with the right child
-      }
-
-      this.exch(k, childToSwap);
-      k = childToSwap;
-
+    while (2 * k <= n) {
+      int child = 2 * k;
+      if (child < n && this.greater(child, child + 1)) child++; // actually right child
+      if (!this.greater(k, child)) break;
+      exch(k, child);
+      k = child;
     }
   }
 
