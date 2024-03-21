@@ -9,9 +9,9 @@ public class TopMints {
   public static void main(String[] args) {
     System.out.print("\nTest 1\n------\n");
     System.out.println(" Uncomment lines 9 through 37 in TopMints.java to run this test.");
-    In in = new In("10ints.txt");
+//    In in = new In("10ints.txt");
     // Uncomment the following line when you are ready to read the file with 1 million integers
-    //In in = new In("https://gist.githubusercontent.com/david-dobor/b9008e5116f1816675fa15e2256b5168/raw/9baebd0943e90e0f98932ea4d53d1f508fa59dff/1Mints1.txt");
+    In in = new In("https://gist.githubusercontent.com/david-dobor/b9008e5116f1816675fa15e2256b5168/raw/9baebd0943e90e0f98932ea4d53d1f508fa59dff/1Mints1.txt");
 
     int m = 5; // keep only top m integers
     int n = in.readInt(); // the first input integer is the number of input lines that follow
@@ -27,7 +27,7 @@ public class TopMints {
       // remove minimum if m+1 entries on the PQ
       if(pq.size() >= m + 1) {
         int minElement = pq.extractMin();
-        System.out.println("minimum element " + minElement);
+//        System.out.println("minimum element " + minElement);
       }
     }
     double time1 = timer1.elapsedTime();
