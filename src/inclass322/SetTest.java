@@ -12,14 +12,24 @@ public class SetTest {
     Scanner in = new Scanner(new File("mobydick.txt"));
     Set<String> words = new TreeSet<>();
 
-    while(in.hasNext()) {
+    // this was GOING to strip all symbols, but i'm not quite there yet.
+//    Pattern letterPattern = Pattern.compile("[a-z]+", Pattern.CASE_INSENSITIVE);
+
+    while (in.hasNext()) {
       String word = in.next();
       word = word.toLowerCase();
 
-      words.add(word);
+//      Matcher matcher = letterPattern.matcher(word);
+//      matcher.
+
+      if (word.startsWith("a") && word.length() == 3) {
+        words.add(word);
+      }
+
     }
 
     System.out.println(words);
+    System.out.println(words.size());
 
   }
 }
