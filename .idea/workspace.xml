@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="Start work on inclass322">
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="SetTest: add word only if begins with a &amp; 3 letters long">
+      <change afterPath="$PROJECT_DIR$/src/homework/poker/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/poker/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/poker/Poker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inclass322/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inclass322/SetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +253,7 @@
       <workItem from="1710952575604" duration="3455000" />
       <workItem from="1711026086952" duration="8633000" />
       <workItem from="1711126007811" duration="2008000" />
-      <workItem from="1711128626030" duration="310000" />
+      <workItem from="1711128626030" duration="3213000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -493,11 +495,18 @@
       <option name="project" value="LOCAL" />
       <updated>1711128589540</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="SetTest: add word only if begins with a &amp; 3 letters long">
+      <option name="closed" value="true" />
+      <created>1711145576723</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1711145576723</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Squash: homework 1" />
     <MESSAGE value="1/26 in-class work" />
     <MESSAGE value="move stuff to labs/" />
     <MESSAGE value="Update ResizingArray &amp; TestResizingArray" />
@@ -522,7 +531,8 @@
     <MESSAGE value="MinPQ: slightly modify sink code from MaxPQ" />
     <MESSAGE value="TopMints: uncomment large file" />
     <MESSAGE value="Start work on inclass322" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start work on inclass322" />
+    <MESSAGE value="SetTest: add word only if begins with a &amp; 3 letters long" />
+    <option name="LAST_COMMIT_MESSAGE" value="SetTest: add word only if begins with a &amp; 3 letters long" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
