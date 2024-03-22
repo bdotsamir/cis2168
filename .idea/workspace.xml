@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="Start work on priority queues">
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="TopMints: uncomment large file">
+      <change afterPath="$PROJECT_DIR$/src/inclass322/SetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/PriorityQueues/MinPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/PriorityQueues/MinPQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/PriorityQueues/TopMints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/PriorityQueues/TopMints.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +80,7 @@
     "Application.ResizingArrayList.executor": "Run",
     "Application.SLListSimple.executor": "Run",
     "Application.SLListTest.executor": "Run",
+    "Application.SetTest.executor": "Run",
     "Application.Squash.executor": "Run",
     "Application.StackClient.executor": "Run",
     "Application.StackClient2.executor": "Run",
@@ -116,13 +116,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TopMints">
-    <configuration name="MaxPQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inclass320.MaxPQ" />
+  <component name="RunManager" selected="Application.SetTest">
+    <configuration name="MinPQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.PriorityQueues.MinPQ" />
       <module name="cis2168" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inclass320.*" />
+          <option name="PATTERN" value="homework.PriorityQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinPQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.PriorityQueues.MinPQ" />
+    <configuration name="SetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inclass322.SetTest" />
       <module name="cis2168" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.PriorityQueues.*" />
+          <option name="PATTERN" value="inclass322.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,19 +185,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SetTest" />
       <item itemvalue="Application.MinPQ" />
       <item itemvalue="Application.TopMints" />
       <item itemvalue="Application.homework.PriorityQueues.MaxPQ" />
-      <item itemvalue="Application.MaxPQ" />
       <item itemvalue="Application.TestMaxPQ" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetTest" />
         <item itemvalue="Application.TopMints" />
         <item itemvalue="Application.MinPQ" />
         <item itemvalue="Application.homework.PriorityQueues.MaxPQ" />
         <item itemvalue="Application.TestMaxPQ" />
-        <item itemvalue="Application.MaxPQ" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +249,8 @@
       <workItem from="1710421112991" duration="2636000" />
       <workItem from="1710423808434" duration="2805000" />
       <workItem from="1710952575604" duration="3455000" />
-      <workItem from="1711026086952" duration="7873000" />
+      <workItem from="1711026086952" duration="8633000" />
+      <workItem from="1711126007811" duration="1977000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -466,12 +468,26 @@
       <option name="project" value="LOCAL" />
       <updated>1711031669266</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="MinPQ: slightly modify sink code from MaxPQ">
+      <option name="closed" value="true" />
+      <created>1711035303794</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1711035303794</updated>
+    </task>
+    <task id="LOCAL-00029" summary="TopMints: uncomment large file">
+      <option name="closed" value="true" />
+      <created>1711035430909</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1711035430909</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="InsertPlusSolution: homework 1" />
-    <MESSAGE value="Lottery: homework 1" />
     <MESSAGE value="Intersect: homework 1" />
     <MESSAGE value="Squash: homework 1" />
     <MESSAGE value="1/26 in-class work" />
@@ -495,7 +511,9 @@
     <MESSAGE value="." />
     <MESSAGE value="IntTree &amp; BinarySearchTree" />
     <MESSAGE value="Start work on priority queues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start work on priority queues" />
+    <MESSAGE value="MinPQ: slightly modify sink code from MaxPQ" />
+    <MESSAGE value="TopMints: uncomment large file" />
+    <option name="LAST_COMMIT_MESSAGE" value="TopMints: uncomment large file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
