@@ -1,23 +1,36 @@
 package homework.poker;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Player {
 
   public final String name;
-  private ArrayList<Card> hand;
+  private final ArrayList<Card> hand;
 
   public Player(String name) {
     this.name = name;
+    this.hand = new ArrayList<>();
   }
 
-  public boolean addCard(Card card) {
+  public void addCard(Card card) {
     if(this.hand.size() == 5) {
-      return false;
+      return;
     }
 
     this.hand.add(card);
-    return true;
+  }
+
+  public short getHandRank() {
+    return HandUtils.rankHand(this.hand);
+  }
+
+  /**
+   * Sorts hand according to rank.
+   * <h2>Modifies the player's hand <i>in place</i></h2>
+   */
+  public void sortHand() {
+    Collections.sort(this.hand);
   }
 
   public String toString() {

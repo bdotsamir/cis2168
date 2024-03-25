@@ -1,6 +1,8 @@
 package homework.poker;
 
-public class Card {
+import org.jetbrains.annotations.NotNull;
+
+public class Card implements Comparable<Card> {
 
   public final Suit suit;
   public final short rank; // Ace (1), 2 - 10, J, Q, K (11 - 13)
@@ -33,21 +35,26 @@ public class Card {
 
   public String toString() {
     String stringSuit = switch(this.suit) {
-      case SPADES -> "Spades";
-      case CLUBS -> "Clubs";
-      case DIAMONDS -> "Diamonds";
-      case HEARTS -> "Hearts";
+      case SPADES -> "♠️";
+      case CLUBS -> "♣️";
+      case DIAMONDS -> "♦️";
+      case HEARTS -> "♥️";
     };
 
     String stringRank = switch(this.rank) {
-      case 1 -> "Ace";
-      case 11 -> "Jack";
-      case 12 -> "Queen";
-      case 13 -> "King";
+      case 1 -> "A";
+      case 11 -> "J";
+      case 12 -> "Q";
+      case 13 -> "K";
       default -> String.valueOf(this.rank);
     };
 
-    return stringRank + " of " + stringSuit;
+    return stringRank + stringSuit;
+  }
+
+  @Override
+  public int compareTo(@NotNull Card o) {
+    return Short.compare(this.rank, o.rank);
   }
 
 }
