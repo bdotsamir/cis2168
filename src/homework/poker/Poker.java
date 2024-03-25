@@ -37,27 +37,33 @@ public class Poker {
       Player p = players.get(i % players.size());
       Card topCard = deck.remove(0);
       p.addCard(topCard);
-      p.sortHand();
+      p.sortHandByRank();
     }
 
-    System.out.println(players);
+    for(Player player : players) {
+      System.out.println(player + " | Rank: " + player.getHandRank());
+    }
 
   }
 
   /**
    * Implements the Sliding Window algorithm in Java.
    * @param array ArrayList to slide through
-   * @param k Window size (must not be greater than array size)
+   * @param windowSize Window size (must not be greater than array size)
    * @param consumer Function to perform on current window
    * @param <E> Type of the elements in ArrayList
    */
-  public static <E> void slidingWindow(List<E> array, int k, Consumer<List<E>> consumer) {
-    if(k > array.size())
+  public static <E> void slidingWindow(List<E> array, int windowSize, Consumer<List<E>> consumer) {
+    if(windowSize > array.size())
       throw new IndexOutOfBoundsException("K parameter was larger than size of array");
 
-    for(int i = 0; i < array.size() - k + 1; i++) {
-      List<E> window = array.subList(i, k + i);
+    for(int i = 0; i < array.size() - windowSize + 1; i++) {
+      List<E> window = array.subList(i, windowSize + i);
       consumer.accept(window);
     }
   }
+
+  // TODO: test DX for returning List<List<E>> rather than requiring a consumable.
+  // (right now, i'm using it most in HandUtils, where the consuming function
+  // forces me to utilize Atomic variables. gross.)
 }

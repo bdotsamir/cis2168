@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="Begin work on Poker">
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/poker/HandUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="Poker: distribute hands equally">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework/poker/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/poker/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/poker/HandUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/poker/HandUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework/poker/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/poker/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework/poker/Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/poker/Poker.java" afterDir="false" />
     </list>
@@ -122,7 +120,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Java Scratch.Scratch">
+  <component name="RunManager" selected="Application.Poker">
     <configuration name="MinPQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.PriorityQueues.MinPQ" />
       <module name="cis2168" />
@@ -193,8 +191,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Application.Poker" />
+        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Application.SetTest" />
         <item itemvalue="Application.TopMints" />
         <item itemvalue="Application.MinPQ" />
@@ -253,7 +251,7 @@
       <workItem from="1711126007811" duration="2008000" />
       <workItem from="1711128626030" duration="4102000" />
       <workItem from="1711319254408" duration="1352000" />
-      <workItem from="1711320615332" duration="4256000" />
+      <workItem from="1711320615332" duration="11441000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -511,11 +509,18 @@
       <option name="project" value="LOCAL" />
       <updated>1711147696880</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Poker: distribute hands equally">
+      <option name="closed" value="true" />
+      <created>1711324908862</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1711324908862</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="move stuff to labs/" />
     <MESSAGE value="Update ResizingArray &amp; TestResizingArray" />
     <MESSAGE value="ZIGZAG IS KILLING ME" />
     <MESSAGE value="ResizingArray: think like a CS student. not a systems programmer." />
@@ -540,7 +545,8 @@
     <MESSAGE value="Start work on inclass322" />
     <MESSAGE value="SetTest: add word only if begins with a &amp; 3 letters long" />
     <MESSAGE value="Begin work on Poker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Begin work on Poker" />
+    <MESSAGE value="Poker: distribute hands equally" />
+    <option name="LAST_COMMIT_MESSAGE" value="Poker: distribute hands equally" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -554,6 +560,11 @@
           <url>file://$PROJECT_DIR$/src/homework/PriorityQueues/MinPQ.java</url>
           <line>48</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homework/poker/HandUtils.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

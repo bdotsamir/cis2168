@@ -29,7 +29,7 @@ public class Player {
    * Sorts hand according to rank.
    * <h2>Modifies the player's hand <i>in place</i></h2>
    */
-  public void sortHand() {
+  public void sortHandByRank() {
     Collections.sort(this.hand);
   }
 

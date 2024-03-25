@@ -32,7 +32,6 @@ public class Card implements Comparable<Card> {
       default -> throw new RuntimeException("Should not have gotten here");
     };
   }
-
   public String toString() {
     String stringSuit = switch(this.suit) {
       case SPADES -> "♠️";
@@ -49,7 +48,7 @@ public class Card implements Comparable<Card> {
       default -> String.valueOf(this.rank);
     };
 
-    return stringRank + stringSuit;
+    return stringRank + " " + stringSuit;
   }
 
   @Override
