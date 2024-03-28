@@ -39,9 +39,58 @@ public class Poker {
       p.sortHandByRank();
     }
 
-    for(Player player : players) {
-      System.out.println(player + " | Rank: " + player.getHandRank());
-    }
+    testStraightFlush();
+    testFourKind();
+    testStraight();
+    testFlush();
 
+//    for(Player player : players) {
+//      System.out.println(player + " | Rank: " + player.getHandRank());
+//    }
+
+  }
+
+  public static void testStraightFlush() {
+    var player = new Player("Straight Flush");
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 3));
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 4));
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 5));
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 6));
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 7));
+
+    System.out.println(player + " | Rank: " + player.getHandRank());
+  }
+
+  public static void testFourKind() {
+    var player = new Player("Four Kind");
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 3));
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 5));
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 7));
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 9));
+    player.addCard(new Card(Card.Suit.HEARTS, (short) 7));
+
+    System.out.println(player + " | Rank: " + player.getHandRank());
+  }
+
+  public static void testStraight() {
+    var player = new Player("Straight");
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 3));
+    player.addCard(new Card(Card.Suit.HEARTS, (short) 4));
+    player.addCard(new Card(Card.Suit.SPADES, (short) 5));
+    player.addCard(new Card(Card.Suit.DIAMONDS, (short) 6));
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 7));
+
+    System.out.println(player + " | Rank: " + player.getHandRank());
+  }
+
+  public static void testFlush() {
+    var player = new Player("Flush");
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 3));
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 5));
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 7));
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 9));
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 11));
+
+    System.out.println(player + " | Rank: " + player.getHandRank());
   }
 }

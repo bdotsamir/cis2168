@@ -1,6 +1,7 @@
 package homework.poker;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class HandRanker {
 
@@ -85,13 +86,9 @@ public class HandRanker {
   // Rank 5
   // All suits are the same
   private boolean isFlush() {
-    List<Card.Suit> suits = this.hand.stream().map(card -> card.suit).toList();
+    Set<Card.Suit> suits = this.hand.stream().map(card -> card.suit).collect(Collectors.toSet());
     return suits.size() == 1;
 
-    // I could algorithmically decide this with a for loop
-    // (like in the isStraightFlush method),
-    // but why would I do that when the hand size is guaranteed
-    // to be five? O(1) < O(5)
   }
 
   // Rank 4
@@ -108,7 +105,6 @@ public class HandRanker {
             card3.rank + 1 == card4.rank &&
             card4.rank + 1 == card5.rank;
 
-    // re: isFlush
   }
 
   // Rank 3
