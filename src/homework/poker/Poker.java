@@ -39,14 +39,18 @@ public class Poker {
       p.sortHandByRank();
     }
 
-    testStraightFlush();
-    testFourKind();
-    testStraight();
-    testFlush();
+    // Uncomment these lines to test each case
+//    testStraightFlush();
+//    testFourKind();
+//    testStraight();
+//    testFlush();
+//    testThreeKind();
+//    testTwoPair();
+//    testPair();
 
-//    for(Player player : players) {
-//      System.out.println(player + " | Rank: " + player.getHandRank());
-//    }
+    for(Player player : players) {
+      System.out.println(player + " | Rank: " + player.getHandRank());
+    }
 
   }
 
@@ -64,9 +68,9 @@ public class Poker {
   public static void testFourKind() {
     var player = new Player("Four Kind");
     player.addCard(new Card(Card.Suit.CLUBS, (short) 3));
-    player.addCard(new Card(Card.Suit.CLUBS, (short) 5));
-    player.addCard(new Card(Card.Suit.CLUBS, (short) 7));
-    player.addCard(new Card(Card.Suit.CLUBS, (short) 9));
+    player.addCard(new Card(Card.Suit.DIAMONDS, (short) 3));
+    player.addCard(new Card(Card.Suit.HEARTS, (short) 3));
+    player.addCard(new Card(Card.Suit.SPADES, (short) 3));
     player.addCard(new Card(Card.Suit.HEARTS, (short) 7));
 
     System.out.println(player + " | Rank: " + player.getHandRank());
@@ -90,6 +94,39 @@ public class Poker {
     player.addCard(new Card(Card.Suit.CLUBS, (short) 7));
     player.addCard(new Card(Card.Suit.CLUBS, (short) 9));
     player.addCard(new Card(Card.Suit.CLUBS, (short) 11));
+
+    System.out.println(player + " | Rank: " + player.getHandRank());
+  }
+
+  public static void testThreeKind() {
+    var player = new Player("Three Kind");
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 3));
+    player.addCard(new Card(Card.Suit.DIAMONDS, (short) 3));
+    player.addCard(new Card(Card.Suit.SPADES, (short) 3));
+    player.addCard(new Card(Card.Suit.HEARTS, (short) 9));
+    player.addCard(new Card(Card.Suit.HEARTS, (short) 10));
+
+    System.out.println(player + " | Rank: " + player.getHandRank());
+  }
+
+  public static void testTwoPair() {
+    var player = new Player("Two Pair");
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 3));
+    player.addCard(new Card(Card.Suit.HEARTS, (short) 3));
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 5));
+    player.addCard(new Card(Card.Suit.HEARTS, (short) 5));
+    player.addCard(new Card(Card.Suit.SPADES, (short) 11));
+
+    System.out.println(player + " | Rank: " + player.getHandRank());
+  }
+
+  public static void testPair() {
+    var player = new Player("Pair");
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 3));
+    player.addCard(new Card(Card.Suit.CLUBS, (short) 3));
+    player.addCard(new Card(Card.Suit.HEARTS, (short) 7));
+    player.addCard(new Card(Card.Suit.SPADES, (short) 9));
+    player.addCard(new Card(Card.Suit.DIAMONDS, (short) 11));
 
     System.out.println(player + " | Rank: " + player.getHandRank());
   }

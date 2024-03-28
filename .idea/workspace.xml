@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="Poker: fully implement all private ranking methods">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="HandRanker: isFlush fix bug, change to Set instead of List">
+      <change beforePath="$PROJECT_DIR$/src/homework/poker/HandRanker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/poker/HandRanker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework/poker/Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/poker/Poker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +78,7 @@
     "Application.MaxPQ.executor": "Run",
     "Application.MinPQ.executor": "Run",
     "Application.NodeTest.executor": "Run",
-    "Application.Poker.executor": "Run",
+    "Application.Poker.executor": "Debug",
     "Application.ResizingArrayList.executor": "Run",
     "Application.SLListSimple.executor": "Run",
     "Application.SLListTest.executor": "Run",
@@ -258,7 +258,7 @@
       <workItem from="1711320615332" duration="12134000" />
       <workItem from="1711392564188" duration="82000" />
       <workItem from="1711565675996" duration="1088000" />
-      <workItem from="1711630362439" duration="6033000" />
+      <workItem from="1711630362439" duration="6374000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -540,7 +540,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711635933272</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="HandRanker: isFlush fix bug, change to Set instead of List">
+      <option name="closed" value="true" />
+      <created>1711636622756</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1711636622756</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,7 +563,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ResizingArray: think like a CS student. not a systems programmer." />
     <MESSAGE value="ZigZag: solution" />
     <MESSAGE value="IntCollection: binary search" />
     <MESSAGE value="Node &amp; NodeTest: start work on linked lists" />
@@ -580,7 +587,8 @@
     <MESSAGE value="Poker: distribute hands equally" />
     <MESSAGE value="Poker: sometimes you have to know when to throw in the towel and start from scratch. i'm committing for posterity, not because this actually works." />
     <MESSAGE value="Poker: fully implement all private ranking methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Poker: fully implement all private ranking methods" />
+    <MESSAGE value="HandRanker: isFlush fix bug, change to Set instead of List" />
+    <option name="LAST_COMMIT_MESSAGE" value="HandRanker: isFlush fix bug, change to Set instead of List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -589,6 +597,14 @@
           <url>file://$PROJECT_DIR$/src/inclass209/SLListTest.java</url>
           <line>11</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homework/poker/HandRanker.java</url>
+          <line>60</line>
+          <properties>
+            <option name="lambda-ordinal" value="-10" />
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
