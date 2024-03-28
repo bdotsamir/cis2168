@@ -20,7 +20,7 @@ public class Card implements Comparable<Card> {
   }
 
   public static Suit parseSuit(int num) {
-    if(num < 1 || num > 4) {
+    if (num < 1 || num > 4) {
       throw new RuntimeException("Invalid number for suit: " + num + " must be in range [1,4]");
     }
 
@@ -32,15 +32,16 @@ public class Card implements Comparable<Card> {
       default -> throw new RuntimeException("Should not have gotten here");
     };
   }
+
   public String toString() {
-    String stringSuit = switch(this.suit) {
+    String stringSuit = switch (this.suit) {
       case SPADES -> "♠️";
       case CLUBS -> "♣️";
       case DIAMONDS -> "♦️";
       case HEARTS -> "♥️";
     };
 
-    String stringRank = switch(this.rank) {
+    String stringRank = switch (this.rank) {
       case 1 -> "A";
       case 11 -> "J";
       case 12 -> "Q";

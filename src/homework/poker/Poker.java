@@ -3,7 +3,6 @@ package homework.poker;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.function.Consumer;
 
 public class Poker {
   public static void main(String[] args) {
@@ -45,25 +44,4 @@ public class Poker {
     }
 
   }
-
-  /**
-   * Implements the Sliding Window algorithm in Java.
-   * @param array ArrayList to slide through
-   * @param windowSize Window size (must not be greater than array size)
-   * @param consumer Function to perform on current window
-   * @param <E> Type of the elements in ArrayList
-   */
-  public static <E> void slidingWindow(List<E> array, int windowSize, Consumer<List<E>> consumer) {
-    if(windowSize > array.size())
-      throw new IndexOutOfBoundsException("K parameter was larger than size of array");
-
-    for(int i = 0; i < array.size() - windowSize + 1; i++) {
-      List<E> window = array.subList(i, windowSize + i);
-      consumer.accept(window);
-    }
-  }
-
-  // TODO: test DX for returning List<List<E>> rather than requiring a consumable.
-  // (right now, i'm using it most in HandUtils, where the consuming function
-  // forces me to utilize Atomic variables. gross.)
 }

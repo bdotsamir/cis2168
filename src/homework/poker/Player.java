@@ -22,7 +22,8 @@ public class Player {
   }
 
   public short getHandRank() {
-    return HandUtils.rankHand(this.hand);
+    HandRanker ranker = new HandRanker(this.hand);
+    return ranker.rankHand();
   }
 
   /**
