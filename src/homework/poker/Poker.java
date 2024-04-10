@@ -29,7 +29,6 @@ public class Poker {
       String playerName = names.remove(i);
       players.add(new Player(playerName));
     }
-
     // Divvy up cards by player
     for(int i = 0; i < 5 * players.size(); i++) {
       // Round-table distribution
