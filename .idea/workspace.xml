@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="homework &amp; inclass 403">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/In.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/In.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,84 +53,87 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.BTInverter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BabyList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BabyListEfficiencyTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BracketMatcher.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Draw.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ElectLeader.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Entrypoint.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Graph.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GraphClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.In.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InClass124.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InsertPlus.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InsertPlusSolution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Intersect.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedList.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LinkedListPractice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListFilter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lottery.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapEq.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxPQ.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Maze.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinPQ.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NodeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Poker.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReduceTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ResizingArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SLListSimple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SLListTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Squash.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackClient2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBST.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestDuckie.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestMaxPQ.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestResizingArray.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TopMints.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ToyIntTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ZigZag.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework.PriorityQueues.MaxPQ.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Java Scratch.Scratch (1).executor&quot;: &quot;Run&quot;,
-    &quot;Java Scratch.Scratch.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.reader.mode&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BTInverter.executor": "Run",
+    "Application.BabyList.executor": "Run",
+    "Application.BabyListEfficiencyTest.executor": "Run",
+    "Application.BracketMatcher.executor": "Run",
+    "Application.Calculator.executor": "Run",
+    "Application.CreateList.executor": "Run",
+    "Application.DijkstraClient.executor": "Run",
+    "Application.Draw.executor": "Run",
+    "Application.ElectLeader.executor": "Run",
+    "Application.Entrypoint.executor": "Run",
+    "Application.Graph.executor": "Run",
+    "Application.GraphClient.executor": "Run",
+    "Application.In.executor": "Run",
+    "Application.InClass124.executor": "Run",
+    "Application.InsertPlus.executor": "Run",
+    "Application.InsertPlusSolution.executor": "Run",
+    "Application.Intersect.executor": "Run",
+    "Application.LinkedList.executor": "Debug",
+    "Application.LinkedListPractice.executor": "Run",
+    "Application.ListFilter.executor": "Run",
+    "Application.Lottery.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MapEq.executor": "Run",
+    "Application.MaxPQ.executor": "Run",
+    "Application.Maze.executor": "Run",
+    "Application.MinPQ.executor": "Run",
+    "Application.NodeTest.executor": "Run",
+    "Application.Poker.executor": "Run",
+    "Application.ReduceTest.executor": "Run",
+    "Application.ResizingArrayList.executor": "Run",
+    "Application.SLListSimple.executor": "Run",
+    "Application.SLListTest.executor": "Run",
+    "Application.SetTest.executor": "Debug",
+    "Application.Squash.executor": "Run",
+    "Application.StackClient.executor": "Run",
+    "Application.StackClient2.executor": "Run",
+    "Application.SumQueue.executor": "Run",
+    "Application.TestBST.executor": "Run",
+    "Application.TestDuckie.executor": "Run",
+    "Application.TestMaxPQ.executor": "Run",
+    "Application.TestResizingArray.executor": "Debug",
+    "Application.TopMints.executor": "Run",
+    "Application.ToyIntTree.executor": "Run",
+    "Application.WeightedDiGraph.executor": "Run",
+    "Application.ZigZag.executor": "Run",
+    "Application.homework.PriorityQueues.MaxPQ.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Java Scratch.Scratch (1).executor": "Run",
+    "Java Scratch.Scratch.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.Maze">
-    <configuration name="BTInverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inclass403.BTInverter" />
+}]]></component>
+  <component name="RunManager" selected="Application.DijkstraClient">
+    <configuration name="DijkstraClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inclass412.DijkstraClient" />
       <module name="cis2168" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inclass403.*" />
+          <option name="PATTERN" value="inclass412.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,20 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inclass410.GraphClient" />
-      <module name="cis2168" />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inclass410.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inclass410.Maze" />
       <module name="cis2168" />
@@ -194,20 +181,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeightedDiGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inclass412.WeightedDiGraph" />
+      <module name="cis2168" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inclass412.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="cis2168" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.BTInverter" />
+      <item itemvalue="Application.DijkstraClient" />
+      <item itemvalue="Application.WeightedDiGraph" />
       <item itemvalue="Application.Draw" />
-      <item itemvalue="Application.GraphClient" />
       <item itemvalue="Application.Graph" />
       <item itemvalue="Application.Maze" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DijkstraClient" />
+        <item itemvalue="Application.WeightedDiGraph" />
         <item itemvalue="Application.Maze" />
         <item itemvalue="Application.Draw" />
         <item itemvalue="Application.Graph" />
-        <item itemvalue="Application.GraphClient" />
-        <item itemvalue="Application.BTInverter" />
       </list>
     </recent_temporary>
   </component>
@@ -283,6 +291,8 @@
       <workItem from="1712769854943" duration="14000" />
       <workItem from="1712769892217" duration="1248000" />
       <workItem from="1712939842377" duration="5000" />
+      <workItem from="1712939851522" duration="3042000" />
+      <workItem from="1713225599192" duration="605000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -588,7 +598,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712768512087</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="inclass410">
+      <option name="closed" value="true" />
+      <created>1712939862869</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1712939862869</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -603,7 +621,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Node &amp; NodeTest: start work on linked lists" />
     <MESSAGE value="Node &amp; NodeTest: add new constructor" />
     <MESSAGE value="LinkedLists" />
     <MESSAGE value="ElectLeader: finished" />
@@ -628,7 +645,8 @@
     <MESSAGE value="HandRanker: isFlush fix bug, change to Set instead of List" />
     <MESSAGE value="Poker: test each case" />
     <MESSAGE value="homework &amp; inclass 403" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework &amp; inclass 403" />
+    <MESSAGE value="inclass410" />
+    <option name="LAST_COMMIT_MESSAGE" value="inclass410" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
