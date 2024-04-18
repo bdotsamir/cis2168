@@ -58,7 +58,7 @@ public class Dijkstra {
 
   public Iterable<DirectedEdge> pathTo(int v) {
     if (!hasPathTo(v)) return null;
-    ArrayDeque<DirectedEdge> path = new ArrayDeque<DirectedEdge>();
+    ArrayDeque<DirectedEdge> path = new ArrayDeque<>();
     for (DirectedEdge e = edgeTo[v]; e != null; e = edgeTo[e.from()]) {
       path.push(e);
     }

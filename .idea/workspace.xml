@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="">
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="inclass412">
+      <change afterPath="$PROJECT_DIR$/src/inclass412/answer.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inclass412/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inclass412/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inclass412/DijkstraClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inclass412/DijkstraClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +59,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BFS.executor": "Run",
     "Application.BTInverter.executor": "Run",
     "Application.BabyList.executor": "Run",
     "Application.BabyListEfficiencyTest.executor": "Run",
@@ -118,7 +122,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -127,6 +131,20 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.DijkstraClient">
+    <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.graphs.BFS" />
+      <module name="cis2168" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DijkstraClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inclass412.DijkstraClient" />
       <module name="cis2168" />
@@ -147,20 +165,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inclass410.Graph" />
-      <module name="cis2168" />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inclass410.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,19 +207,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BFS" />
       <item itemvalue="Application.DijkstraClient" />
       <item itemvalue="Application.WeightedDiGraph" />
       <item itemvalue="Application.Draw" />
-      <item itemvalue="Application.Graph" />
       <item itemvalue="Application.Maze" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DijkstraClient" />
         <item itemvalue="Application.WeightedDiGraph" />
+        <item itemvalue="Application.BFS" />
         <item itemvalue="Application.Maze" />
         <item itemvalue="Application.Draw" />
-        <item itemvalue="Application.Graph" />
       </list>
     </recent_temporary>
   </component>
@@ -293,6 +297,7 @@
       <workItem from="1712939842377" duration="5000" />
       <workItem from="1712939851522" duration="3042000" />
       <workItem from="1713225599192" duration="605000" />
+      <workItem from="1713371317437" duration="4819000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -606,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712939862869</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="inclass412">
+      <option name="closed" value="true" />
+      <created>1713371328916</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1713371328916</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -621,7 +634,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Node &amp; NodeTest: add new constructor" />
     <MESSAGE value="LinkedLists" />
     <MESSAGE value="ElectLeader: finished" />
     <MESSAGE value="BabyList" />
@@ -646,7 +658,8 @@
     <MESSAGE value="Poker: test each case" />
     <MESSAGE value="homework &amp; inclass 403" />
     <MESSAGE value="inclass410" />
-    <option name="LAST_COMMIT_MESSAGE" value="inclass410" />
+    <MESSAGE value="inclass412" />
+    <option name="LAST_COMMIT_MESSAGE" value="inclass412" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
