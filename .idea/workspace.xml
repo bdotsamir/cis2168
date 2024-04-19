@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="work on Dijkstra">
-      <change afterPath="$PROJECT_DIR$/src/homework/graphs/DFS.java" afterDir="false" />
+    <list default="true" id="b95f0cc7-fb68-4aa9-97d6-a964c1e69a77" name="Changes" comment="Reachability: complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/graphs/Reachability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/graphs/Reachability.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,7 @@
     "Application.BabyListEfficiencyTest.executor": "Run",
     "Application.BracketMatcher.executor": "Run",
     "Application.Calculator.executor": "Run",
+    "Application.ConnectedComponents.executor": "Debug",
     "Application.CreateList.executor": "Run",
     "Application.DijkstraClient.executor": "Run",
     "Application.Draw.executor": "Run",
@@ -129,7 +130,21 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Reachability">
+  <component name="RunManager" selected="Application.ConnectedComponents">
+    <configuration name="ConnectedComponents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.graphs.ConnectedComponents" />
+      <module name="cis2168" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DijkstraClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inclass412.DijkstraClient" />
       <module name="cis2168" />
@@ -186,20 +201,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeightedDiGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inclass412.WeightedDiGraph" />
-      <module name="cis2168" />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inclass412.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="cis2168" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
@@ -208,19 +209,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ConnectedComponents" />
       <item itemvalue="Application.Poker" />
       <item itemvalue="Application.Reachability" />
       <item itemvalue="Application.TopMints" />
       <item itemvalue="Application.DijkstraClient" />
-      <item itemvalue="Application.WeightedDiGraph" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConnectedComponents" />
         <item itemvalue="Application.Reachability" />
         <item itemvalue="Application.TopMints" />
         <item itemvalue="Application.Poker" />
         <item itemvalue="Application.DijkstraClient" />
-        <item itemvalue="Application.WeightedDiGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +300,7 @@
       <workItem from="1712939851522" duration="3042000" />
       <workItem from="1713225599192" duration="605000" />
       <workItem from="1713371317437" duration="4819000" />
-      <workItem from="1713445188832" duration="5145000" />
+      <workItem from="1713445188832" duration="8117000" />
     </task>
     <task id="LOCAL-00001" summary="init duckie">
       <option name="closed" value="true" />
@@ -629,7 +630,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713445262120</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Reachability: complete">
+      <option name="closed" value="true" />
+      <created>1713450390347</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1713450390347</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -644,7 +653,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ElectLeader: finished" />
     <MESSAGE value="BabyList" />
     <MESSAGE value="work on stack ADT + calculator that utilizes it" />
     <MESSAGE value="SumQueue: implement summing the integers in a queue" />
@@ -669,7 +677,8 @@
     <MESSAGE value="inclass410" />
     <MESSAGE value="inclass412" />
     <MESSAGE value="work on Dijkstra" />
-    <option name="LAST_COMMIT_MESSAGE" value="work on Dijkstra" />
+    <MESSAGE value="Reachability: complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reachability: complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -686,13 +695,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/homework/graphs/Reachability.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/homework/graphs/Reachability.java</url>
           <line>17</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homework/graphs/ConnectedComponents.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

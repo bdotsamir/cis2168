@@ -3,28 +3,26 @@ package homework.graphs;
 import util.In;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
-public class Reachability {
-  private static int reach(ArrayList<Integer>[] adj, int x, int y) {
-    System.out.printf("Trying to get from %d to %d...\n\n", x, y);
+public class ConnectedComponents {
+  private static int numberOfComponents(ArrayList<Integer>[] adj) {
+
+    System.out.println("Test");
 
     // YOUR CODE HERE
+    int components = 0;
     boolean[] visited = new boolean[adj.length];
-    dfs(adj, x, visited);
+    while (!allTrue(visited)) {
+      int firstFalse = firstIndexOfFalse(visited);
+      dfs(adj, firstFalse, visited);
+      components++;
+    }
 
-    System.out.printf("Is %d connected to %d? %s\n", x, y, visited[y]);
-
-    return visited[y] ? 1 : 0;  // <- change this line to return the correct result
+    return components;
   }
 
-  // Hint: review depth-first search (dfs). It may be 'cleaner' to write a
-  // separate helper method (dfs) and call it from your code in reach().
-  // Alternatively, you can keep all your logic in reach(), if you wish.
+  // feel free to add a helper method to make your code cleaner & modular.
 
-  // To visit a vertex v,
-  // * Mark vertex v as visited.
-  // * Recursively visit all unmarked vertices adjacent to v
   private static void dfs(ArrayList<Integer>[] adj, int v, boolean[] visited) {
     ArrayList<Integer> adjacentToThisVertex = adj[v];
     System.out.printf("What are the vertices that are connected to %d? %s\n", v, adjacentToThisVertex);
@@ -42,20 +40,43 @@ public class Reachability {
     }
   }
 
+  private static boolean allTrue(boolean[] list) {
+    boolean isAllTrue = true;
+
+    for (boolean e : list) {
+      if (!e) {
+        isAllTrue = false;
+        break;
+      }
+    }
+
+    return isAllTrue;
+  }
+
+  /**
+   * Returns the first index of a false boolean in a given list
+   *
+   * @param list The list
+   * @return Index of the first false, -1 otherwise
+   */
+  private static int firstIndexOfFalse(boolean[] list) {
+    for (int i = 0; i < list.length; i++) {
+      boolean val = list[i];
+      if (!val) return i;
+    }
+
+    return -1;
+  }
+
   @SuppressWarnings("unchecked")
   public static void main(String[] args) {
-    In in = new In("G1-3.txt");
-    int n = in.readInt();  // number of vertices
-    int m = in.readInt();  // number of edges
-
-    // for each vertex, allocate space for its adjacency list
+    In in = new In("mediumG.txt");
+    int n = in.readInt();
+    int m = in.readInt();
     ArrayList<Integer>[] adj = (ArrayList<Integer>[]) new ArrayList[n];
     for (int i = 0; i < n; i++) {
       adj[i] = new ArrayList<>();
     }
-
-    // read the next m lines of input and build an
-    // adjacency list representation of the graph
     for (int i = 0; i < m; i++) {
       int x, y;
       x = in.readInt();
@@ -63,13 +84,7 @@ public class Reachability {
       adj[x - 1].add(y - 1);
       adj[y - 1].add(x - 1);
     }
-    System.out.println(Arrays.toString(adj) + "\n");
-
-    // read the last line of the input file.
-    // x = the start vertex; y = the end vertex
-    int x = in.readInt() - 1;
-    int y = in.readInt() - 1;
-    // is y reachable from x
-    System.out.println(reach(adj, x, y));
+    System.out.println(numberOfComponents(adj));
   }
 }
+
